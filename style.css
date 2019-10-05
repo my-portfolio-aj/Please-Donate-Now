@@ -44,7 +44,7 @@ h1{
     margin: 0;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 400px) {
     .container{
         width:100%;
         justify-content: center;
@@ -55,9 +55,9 @@ h1{
    
 }
 
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 400px){
     .btn{
-        position: absolute;
+        /* position: absolute; */
         width: 65%;
         top: 250px;
         left: 100px;
@@ -66,8 +66,8 @@ h1{
         background-color: rgba(250, 248, 248, 0.473);
     }
 } 
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 400px){
     a {
-        font-size: 1rem;
+        font-size: .5rem;
     } 
  }
