@@ -57,7 +57,7 @@ h1{
 
 @media only screen and (max-width: 400px){
     .btn{
-        position: relative;
+        position: absolute;
         width: 100%;
         top: 250px;
         /* left: 70px; */
