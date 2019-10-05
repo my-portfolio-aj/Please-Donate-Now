@@ -23,7 +23,7 @@
 .btn{
     position: absolute;
     width: 60%;
-    top: 650px;
+    top: 550px;
     left: 200px; 
     border-radius: 10px;
     background-color: rgba(250, 248, 248, 0.473);
@@ -32,7 +32,7 @@
 
 a{
     text-decoration: none;
-    color: #1c3886;
+    color: red;
     font-weight: bold;
     font-size: 2rem;
 }
