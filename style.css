@@ -19,34 +19,13 @@
     height: 500px;
     
 }
-
-.btn{
-    position: absolute;
-    width: 60%;
-    top: 550px;
-    left: 200px; 
-    border-radius: 10px;
-    background-color: rgba(250, 248, 248, 0.473);
-    
-} 
-
 a{
-    text-decoration: none;
-    color: red;
-    font-weight: bold;
-    font-size: 2rem;
-}
 
-
-h1{
-
-    background-color: rgba(250, 248, 248, 0);
-    margin: 0;
 }
 
 @media only screen and (max-width: 400px) {
     .container{
-        width:100%;
+        width: 65%;
         justify-content: center;
         margin: 0;
         height: 300px;
@@ -55,19 +34,3 @@ h1{
    
 }
 
-@media only screen and (max-width: 400px){
-    .btn{
-        position: absolute;
-        width: 80%;
-        top: 250px;
-        right: 100px;
-        padding: 10px;
-        border-radius: 10px;
-        background-color: rgba(250, 248, 248, 0.473);
-    }
-} 
-@media only screen and (max-width: 400px){
-    a {
-        font-size: .5rem;
-    } 
- }
