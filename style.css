@@ -1,5 +1,5 @@
 *{
-    background-color: #e4e5ebef;
+    background-color: #b2b3b9ef;
 }
 /* body{
     background-image: url("UPDATED-LOGObtn2.png");
@@ -10,6 +10,7 @@
     position: relative;
     
 } */
+
 .container{
     display: flex;
     justify-content: center;
@@ -18,15 +19,17 @@
     height: 500px;
     
 }
+
 .btn{
     position: absolute;
     width: 60%;
-    top: 350px;
-    left: 200px;
+    top: 550px;
+    left: 200px; 
     border-radius: 10px;
     background-color: rgba(250, 248, 248, 0.473);
     
-}
+} 
+
 a{
     text-decoration: none;
     color: #1c3886;
@@ -34,7 +37,37 @@ a{
     font-size: 2rem;
 }
 
+
 h1{
+
     background-color: rgba(250, 248, 248, 0);
     margin: 0;
 }
+
+@media only screen and (max-width: 500px) {
+    .container{
+        width:100%;
+        justify-content: center;
+        margin: 0;
+        height: 300px;
+        margin-top: 10px;
+    }
+   
+}
+
+@media only screen and (max-width: 500px){
+    .btn{
+        position: absolute;
+        width: 65%;
+        top: 250px;
+        left: 100px;
+        padding: 10px;
+        border-radius: 10px;
+        background-color: rgba(250, 248, 248, 0.473);
+    }
+} 
+@media only screen and (max-width: 500px){
+    a {
+        font-size: 1rem;
+    } 
+ }
