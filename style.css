@@ -57,10 +57,10 @@ h1{
 
 @media only screen and (max-width: 400px){
     .btn{
-        /* position: absolute; */
+        position: relative;
         width: 65%;
         top: 250px;
-        left: 100px;
+        left: 70px;
         padding: 10px;
         border-radius: 10px;
         background-color: rgba(250, 248, 248, 0.473);
