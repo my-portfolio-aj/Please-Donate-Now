@@ -1,4 +1,7 @@
-body{
+*{
+    background-color: #e4e5ebef;
+}
+/* body{
     background-image: url("UPDATED-LOGObtn2.png");
     background-color: #cccccc;
     background-position: center;
@@ -6,24 +9,32 @@ body{
     background-size: 100% 100%;
     position: relative;
     
-}
+} */
 .container{
-      width: 95%;
-    height: 300px;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    width: 95%;
+    height: 500px;
     
 }
 .btn{
     position: absolute;
-    width: 80%;
-    top: 150px;
-    left: 50px;
+    width: 60%;
+    top: 350px;
+    left: 200px;
     border-radius: 10px;
     background-color: rgba(250, 248, 248, 0.473);
-    padding: 20px;
+    
 }
 a{
     text-decoration: none;
-    color: #1f419b;
+    color: #1c3886;
     font-weight: bold;
     font-size: 2rem;
+}
+
+h1{
+    background-color: rgba(250, 248, 248, 0);
+    margin: 0;
 }
